@@ -16,7 +16,7 @@ li {
 }
 
 header {
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 .header-hr {
@@ -32,7 +32,7 @@ nav {
     display: flex;
     gap: 40px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header-center-ul {
@@ -59,10 +59,12 @@ nav {
     display: flex;
 }
 
+.header-right {
+    display: flex;
+}
+
 .header-right ul {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     gap: 15px;
 }
 
@@ -77,14 +79,19 @@ nav {
     text-decoration: none;
 }
 
-.right-arrow {
-    font-size: 11px;
+.sign-in {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.8688px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    text-decoration: none;
 }
 
-.login-li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.right-arrow {
+    font-size: 11px;
 }
 
 .signup-btn {
@@ -112,7 +119,7 @@ nav {
     gap: 15px;
 }
 
-.first-left h2 {
+.first-left .first-left-h2 {
     color: #2B788B;
     font-family: 'Montserrat';
     font-style: normal;
@@ -121,7 +128,7 @@ nav {
     font-size: 16px;
 }
 
-.first-left h1 {
+.first-left .first-left-h1 {
     font-family: 'Dela Gothic One';
     font-style: normal;
     font-weight: 400;
@@ -164,16 +171,18 @@ nav {
 
 /* First Section */
 /* energy */
-.energy{
+.energy {
     display: flex;
     gap: 60px;
     align-items: center;
 }
-.energy-left{
+
+.energy-left {
     display: flex;
     flex-direction: column;
-    
+
 }
+
 .energy-left-top {
     display: flex;
     align-items: center;
@@ -198,35 +207,37 @@ nav {
     color: #585858;
     padding: 0 10px;
 }
-.energy-left-bottom-span-div{
-    padding: 0 45px;
+
+.energy-left-bottom-span-div {
+    padding: 0 30px;
 }
-.energy-hr{
+
+.energy-hr {
     height: 50px;
     width: 2px;
     border: none;
     background-color: #e0e0e0;
 }
+
 /* energy */
 
 /* first-right */
 
-.first-right .main-img{
-    width: 500px;
-    position: relative;
+.first-right .main-img {
+    max-width: 600px;
+    object-fit: contain;
 }
-.left-img{
-    position: absolute;
-    z-index: 1;
-    right: 560px;
-    top: 290px;
-    width: 100px;
-}
-.right-img{
-    position: absolute;
-    width: 300px;
-    height: 500px;
-    right: 10px;
-    object-fit: cover;
-}
+
 /* first-right */
+
+.burger-menu {
+    display: none;
+}
+
+.login-mobile {
+    display: none;
+}
+
+.signup-mobile {
+    display: none;
+}

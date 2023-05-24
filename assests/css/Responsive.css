@@ -1,0 +1,114 @@
+@media only screen and (max-width:992px) {
+    .header-center {
+        display: none;
+    }
+
+    .header-logo {
+        padding-right: 0;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .first {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .first-left {
+        align-items: center;
+    }
+
+    .first-left .first-left-h1 {
+        text-align: center;
+    }
+
+    .first-left .first-left-h1 {
+        font-weight: 400;
+        font-size: 60px;
+        letter-spacing: -0.04em;
+    }
+
+    .first-right {
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width:768px) {
+    .login-mobile {
+        display: block;
+        font-size: 22px;
+        color: black;
+    }
+
+    .signup-mobile {
+        display: block;
+        font-size: 22px;
+        color: black;
+    }
+
+    .login-btn {
+        display: none;
+    }
+
+    .signup-btn {
+        display: none;
+    }
+
+    .first-right .main-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .login-mobile {
+        display: block;
+        font-size: 22px;
+        color: black;
+    }
+
+    .signup-mobile {
+        display: block;
+        font-size: 22px;
+        color: black;
+    }
+
+    .login-btn {
+        display: none;
+    }
+
+    .signup-btn {
+        display: none;
+    }
+
+    .first-right .main-img {
+        width: 100%;
+    }
+
+    .first-left .first-left-h1 {
+        font-size: 30px;
+    }
+
+    .energy {
+        gap: 15px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .energy-left-top-span {
+        font-size: 20px;
+    }
+
+    .energy-left-bottom-span {
+        font-size: 12.8688px;
+    }
+
+}
